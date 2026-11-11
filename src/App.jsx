@@ -6,7 +6,7 @@ const products = [
     id: 1,
     name: 'Fresh Meat',
     description: 'Fresh pork meat for your favourite meals.',
-    price: '₦5,000',
+    price: '₦4,000',
     unit: 'Per kg',
     image: '/images/sarahs-fresh-meat.jpg',
     type: 'fresh',
@@ -94,6 +94,11 @@ function App() {
           </div>
         </div>
       </section>
+
+      <div className="delivery-note">
+        🛵 Home Delivery Available
+        <span>Fresh pork delivered right to your doorstep!</span>
+      </div>
 
       <section className="about" id="about">
         <div className="about-image">

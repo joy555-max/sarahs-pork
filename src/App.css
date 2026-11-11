@@ -656,3 +656,22 @@ footer a:hover {
     text-align: center;
   }
 }
+
+.delivery-note {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 20px;
+  padding: 15px 22px;
+  background: linear-gradient(135deg, #762c39, #a83f4c);
+  color: #fff8ef;
+  border-radius: 14px;
+  font-weight: 800;
+  box-shadow: 0 8px 22px rgba(118, 44, 57, 0.2);
+}
+
+.delivery-note span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff0e8;
+}
